@@ -29,5 +29,8 @@ The main script utilizes the following components:
   - Price history and RSI over time.
   - Current and historical price ratios.
   - Trading advice based on the current ratio compared to historical data.
+ 
+## Output of code
+This is what the HUD looks like. It has 4 trading pairs, their historical ratio (variable can be changed in the file currently sent to 1 year), their values, their current ratios, and their RSI.
 
 ![Alt Text](HUDImage.jpg)
