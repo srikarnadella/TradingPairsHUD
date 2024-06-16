@@ -1,5 +1,9 @@
 # Pairs Trading HUD
 This application uses Python and tkinter to display pairs trading analysis for selected stock pairs using historical data fetched from Yahoo Finance (`yfinance`). It plots the price trends and Relative Strength Index (RSI) for each pair, along with providing trading advice based on current and historical ratios.
+Files Key:
+* main.py rough bare bones version
+* AdditonalTA.py version seen with 4 charts plotted
+* userInputedCharts.py version that takes two user inputs and outputs the chart
 
 ## Purpose
 
@@ -33,4 +37,7 @@ The main script utilizes the following components:
 ## Output of code
 This is what the HUD looks like. It has 4 trading pairs, their historical ratio (variable can be changed in the file currently sent to 1 year), their values, their current ratios, and their RSI.
 
+### AdditionalTA.py HUD image
 ![Alt Text](HUDImage.jpg)
+### userInputedCharts.py HUD Image
+![Alt Text](uesrInputedHud.jpg)
